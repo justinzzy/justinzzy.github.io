@@ -1,24 +1,11 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>{{ page.title }}</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
+	{% include head.html %}
 	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-
+		{% include header.html %}
+		<div>
 		{{ content }}
-
-		</div><!-- /.container -->
+		</div>
 		<footer>
     		<ul>
         		<li><a href="mailto:justin.zhao.it@gmail.com">email</a></li>
