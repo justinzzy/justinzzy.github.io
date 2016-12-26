@@ -11,21 +11,45 @@ img.avator {
 	height: 200px;
 }
 
-.blurb .lead {
+.blurb-lead {
 	margin: 0 auto 30px;
-	font-size: 20px;
+	font-size: 30px;
+	font-weight: 300;
 	color: $base-color-white;
+	width: 80%;
 }
 
-@media (min-width: 768px) {
-	.blurb .lead {
-		font-size: 24px;
-	}
+.blurb .sign-link {
+	margin: 100px auto 0px;
 }
 
-@media (min-width: 992px) {
-	.blurb .lead {
-		width: 80%;
-		font-size: 30px;
+.gallery {
+	&:before {
+		display: table;
+		content: " ";
 	}
+	&:after {
+		clear: both;
+		display: table;
+		content: " ";
+	}
+
+	margin: 80px 0;
+}
+
+.gallery-lead {
+	margin: 0 auto 30px;
+	font-size: 40px;
+	font-weight: 400;
+	color: $base-color-blue;
+	text-align: center;
+}
+
+.gallery-picture {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.gallery-picture img {
+	max-width: 80%;
 }

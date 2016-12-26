@@ -1,15 +1,82 @@
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
 a {
   text-decoration: none; }
+
+.link-large {
+  font-size: 50px; }
+
+.link-inverse {
+  color: #ffffff;
+  background-color: #27408B;
+  margin: 0 20px; }
 
 ul {
   margin: 0;
   padding: 0;
   list-style: none; }
+
+.btn {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 6px 12px; }
+
+.btn-large {
+  font-size: 20px;
+  border-radius: 6px;
+  padding: 15px 30px; }
+
+.btn-outline-inverse {
+  color: #ffffff;
+  background-color: #27408B;
+  border-color: #87CEFA; }
+  .btn-outline-inverse:hover {
+    color: #27408B;
+    background-color: #ffffff;
+    border-color: #ffffff; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.blog-content_title {
+  padding: 60px 0;
+  background-color: #27408B;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: left;
+  color: #87CEFA; }
+
+.blog-content_title h1 {
+  font-size: 60px;
+  font-weight: 500;
+  color: #ffffff; }
+
+.blog-content_posts {
+  margin: 120px 0 240px;
+  font-size: 24px;
+  font-weight: 300;
+  color: #27408B; }
+
+.blog-content_posts p {
+  margin: 0 auto 30px;
+  font-size: 40px;
+  font-weight: 400;
+  color: #27408B; }
+
+.content_title {
+  padding: 60px 0;
+  background-color: #27408B;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: left;
+  color: #87CEFA; }
+
+.content_title h1 {
+  font-size: 60px;
+  font-weight: 500;
+  color: #ffffff; }
 
 .zzy-docs-footer {
   text-align: left;
@@ -96,19 +163,39 @@ img.avator {
   width: 200px;
   height: 200px; }
 
-.blurb .lead {
+.blurb-lead {
   margin: 0 auto 30px;
-  font-size: 20px;
-  color: #ffffff; }
+  font-size: 30px;
+  font-weight: 300;
+  color: #ffffff;
+  width: 80%; }
 
-@media (min-width: 768px) {
-  .blurb .lead {
-    font-size: 24px; } }
+.blurb .sign-link {
+  margin: 100px auto 0px; }
 
-@media (min-width: 992px) {
-  .blurb .lead {
-    width: 80%;
-    font-size: 30px; } }
+.gallery {
+  margin: 80px 0; }
+  .gallery:before {
+    display: table;
+    content: " "; }
+  .gallery:after {
+    clear: both;
+    display: table;
+    content: " "; }
+
+.gallery-lead {
+  margin: 0 auto 30px;
+  font-size: 40px;
+  font-weight: 400;
+  color: #27408B;
+  text-align: center; }
+
+.gallery-picture {
+  margin: 20px 0;
+  text-align: center; }
+
+.gallery-picture img {
+  max-width: 80%; }
 
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
