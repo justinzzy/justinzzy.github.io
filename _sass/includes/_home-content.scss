@@ -2,11 +2,30 @@
 	padding: 80px 0;
 	color: #cbdfe3;
 	text-align: center;
-	background-color: #6f5499;
+	background-color: $base-color-blue;
 }
 
 img.avator {
 	margin: 0 auto 30px;
 	width: 200px;
 	height: 200px;
+}
+
+.blurb .lead {
+	margin: 0 auto 30px;
+	font-size: 20px;
+	color: $base-color-white;
+}
+
+@media (min-width: 768px) {
+	.blurb .lead {
+		font-size: 24px;
+	}
+}
+
+@media (min-width: 992px) {
+	.blurb .lead {
+		width: 80%;
+		font-size: 30px;
+	}
 }
