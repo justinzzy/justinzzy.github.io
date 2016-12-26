@@ -11,6 +11,25 @@ ul {
   padding: 0;
   list-style: none; }
 
+.zzy-docs-footer {
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #2a2730; }
+
+.zzy-docs-footer-links {
+  margin-bottom: 20px;
+  padding-left: 0; }
+
+.zzy-docs-footer-links li {
+  display: inline-block; }
+
+.zzy-docs-footer-links li + li {
+  margin-left: 15px; }
+
+.zzy-docs-footer a {
+  color: #ffffff; }
+
 @media (min-width: 768px) {
   .navbar-header {
     float: left;
@@ -19,7 +38,7 @@ ul {
 
 .navbar-brand {
   font-weight: 500;
-  color: #563d7c;
+  color: #27408B;
   float: left;
   height: 50px;
   padding: 15px 15px;
@@ -46,7 +65,7 @@ ul.nav > li {
 
 ul.nav > li > a {
   font-weight: 500;
-  color: #563d7c; }
+  color: #27408B; }
 
 .nav > li > a {
   position: relative;
@@ -58,7 +77,7 @@ ul.nav > li > a {
   padding-bottom: 10px;
   line-height: 20px; }
   .navbar-nav > li > a:hover {
-    color: #463265;
+    color: #27408B;
     background-color: #f9f9f9; }
 
 @media (min-width: 768px) {
@@ -70,19 +89,32 @@ ul.nav > li > a {
   padding: 80px 0;
   color: #cbdfe3;
   text-align: center;
-  background-color: #6f5499; }
+  background-color: #27408B; }
 
 img.avator {
   margin: 0 auto 30px;
   width: 200px;
   height: 200px; }
 
+.blurb .lead {
+  margin: 0 auto 30px;
+  font-size: 20px;
+  color: #ffffff; }
+
+@media (min-width: 768px) {
+  .blurb .lead {
+    font-size: 24px; } }
+
+@media (min-width: 992px) {
+  .blurb .lead {
+    width: 80%;
+    font-size: 30px; } }
+
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
+  background-color: #ffffff;
   margin: 0; }
 
 .container {

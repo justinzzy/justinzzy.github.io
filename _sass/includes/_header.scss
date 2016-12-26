@@ -12,7 +12,7 @@
 	}
 
 	font-weight: 500;
-	color: #563d7c;
+	color: $base-color-blue;
 	float: left;
 	height: 50px;
 	padding: 15px 15px;
@@ -40,7 +40,7 @@ ul.nav>li {
 
 ul.nav>li>a {
 	font-weight: 500;
-	color: #563d7c;
+	color: $base-color-blue;
 }
 
 .nav>li>a {
@@ -55,8 +55,8 @@ ul.nav>li>a {
 	line-height: 20px;
 
 	&:hover {
-		color: #463265;
-		background-color: #f9f9f9;
+		color: $base-color-blue;
+		background-color: $base-color-light-gray;
 	}
 }
 
