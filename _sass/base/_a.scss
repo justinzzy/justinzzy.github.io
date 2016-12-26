@@ -1,0 +1,13 @@
+a {
+	text-decoration: none;
+}
+
+.link-large {
+	font-size: 50px;
+}
+
+.link-inverse {
+	color: $base-color-white;
+	background-color: $base-color-blue;
+	margin: 0 20px;
+}

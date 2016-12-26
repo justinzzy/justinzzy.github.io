@@ -1,20 +1,10 @@
-$base-color-blue: #27408B;
-$base-color-white: #ffffff;
-$base-color-light-gray: #f9f9f9;
-$base-color-dark: #2a2730;
+@import "base/color";
+@import "base/a";
+@import "base/ul";
+@import "base/button";
 
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-}
-
-a {
-	text-decoration: none;
-}
-
-ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
 }
