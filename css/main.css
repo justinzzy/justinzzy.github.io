@@ -1,5 +1,8 @@
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #27408B; }
+  a:hover {
+    color: #87CEFA; }
 
 .link-large {
   font-size: 50px; }
@@ -221,6 +224,17 @@ body {
 @media (min-width: 1200px) {
   .container {
     width: 1170px; } }
+
+.post {
+  margin: 80px 0; }
+
+.grid-item {
+  width: 200px;
+  position: absolute;
+  text-align: center; }
+
+.grid-item-img {
+  max-width: 100%; }
 
 .img-circle {
   border-radius: 50%; }
