@@ -8,4 +8,7 @@
 		</div>
 		{% include footer.html %}
 	</body>
+	{% for script in page.scripts %}
+		<script type="text/javascript" src="{{ script }}"></script>
+	{% endfor %}
 </html>
