@@ -3,11 +3,12 @@
 	{% include head.html %}
 	<body>
 		{% include header.html %}
-		<div>
+		<div class="content">
 		{{ content }}
 		</div>
 		{% include footer.html %}
 	</body>
+	<script type="text/javascript" src="/js/lib/jquery/jquery.min.js"></script>
 	{% for script in page.scripts %}
 		<script type="text/javascript" src="{{ script }}"></script>
 	{% endfor %}

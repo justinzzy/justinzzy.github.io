@@ -1,32 +1,15 @@
 body {
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 14px;
-	line-height: 1.42857143;
 	background-color: $base-color-white;
+	color: $base-color-gray;
+    font-family: $font-family-comic-sans-ms;
+	font-size: $font-size-small;
+	line-height: 1.42857143;
 	margin: 0;
 }
 
-.container {
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-@media (min-width: 768px) {
-	.container {
-		width: 750px;
-	}
-}
-
-@media (min-width: 992px) {
-	.container {
-		width: 970px;
-	}
-}
-
-@media (min-width: 1200px) {
-	.container {
-		width: 1170px;
-	}
+.content {
+	font-size: $font-size-medium;
+    margin: 0 auto;
+    min-height: 600px;
+    width: 800px;
 }

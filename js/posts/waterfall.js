@@ -1,5 +1,5 @@
 (function() {
-	setItems($('.grid'), 30);
+	setItems($('#grid'), 30);
 	$('.grid-item-img').on('load', function() { layout(); });
 
 	$(window).resize(function() {
@@ -10,17 +10,17 @@
 function setItems(elem, number) {
 	while(number-->0) {
 		var gridItem = $('<div class="grid-item"></div>');
-		var gridItemImg = $('<img src="/img/waterfall01.jpg" class="grid-item-img"/>');
+		var gridItemImg = $('<img src="/resource/img/waterfall01.jpg" class="grid-item-img"/>');
 
 		switch(number%3) {
 			case 1:
-				gridItemImg = $('<img src="/img/waterfall02.jpg" class="grid-item-img"/>');
+				gridItemImg = $('<img src="/resource/img/waterfall02.jpg" class="grid-item-img"/>');
 				break;
 			case 2:
-				gridItemImg = $('<img src="/img/waterfall03.png" class="grid-item-img"/>');
+				gridItemImg = $('<img src="/resource/img/waterfall03.png" class="grid-item-img"/>');
 				break;
 			defalut:
-				gridItemImg = $('<img src="/img/waterfall01.jpg" class="grid-item-img"/>');
+				gridItemImg = $('<img src="/resource/img/waterfall01.jpg" class="grid-item-img"/>');
 		}
 
 		gridItem.append(gridItemImg);
@@ -49,7 +49,7 @@ function layout() {
 			colMinHeightIndex = columns.indexOf(colMinHeight);
 
 		$this.css({
-			"top": colMinHeight + 480,
+			"top": colMinHeight + 200,
 			"left": colMinHeightIndex * (realItemWidth + itemMargin)
 		});
 
@@ -58,7 +58,7 @@ function layout() {
 	});
 
 	var colMaxHeight = Math.max.apply(Math, columns);
-	$('.grid').height(colMaxHeight);
+	$('#grid').height(colMaxHeight);
 }
 
 var timer = {};
