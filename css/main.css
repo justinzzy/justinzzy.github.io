@@ -1,16 +1,18 @@
 a {
+  color: inherit;
   text-decoration: none; }
+  a:visited {
+    color: inherit; }
+  a:hover {
+    color: #87CEFA; }
 
 .nav-link {
-  color: gray;
   display: inline-block;
   font-family: Tahoma, Geneva, sans-serif;
   height: 40px;
   line-height: 40px;
   text-align: center;
   width: 100px; }
-  .nav-link:hover {
-    color: #2a2730; }
 
 .img-circle {
   border-radius: 50%; }
@@ -48,7 +50,7 @@ ul {
   margin: 10px 0; }
 
 .navbar-nav {
-  border-bottom: 1px solid gray;
+  border-bottom: 1.5px solid #000000;
   margin: 0 auto;
   width: 800px; }
   .navbar-nav::after {
@@ -63,7 +65,7 @@ ul {
 
 body {
   background-color: #ffffff;
-  color: gray;
+  color: #000000;
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
@@ -75,13 +77,14 @@ body {
   min-height: 600px;
   width: 800px; }
 
-.content-introduce {
+.content-home {
   text-align: center; }
 
-.content-introduce-avator {
-  height: 200px;
+.content-home__avator {
+  height: 180px;
   margin: 30px auto;
-  width: 200px; }
+  text-align: center;
+  width: 180px; }
 
 .grid-item {
   width: 200px;
