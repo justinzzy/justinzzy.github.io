@@ -3,8 +3,9 @@
 }
 
 .footer-nav {
+    border-top: 1.5px solid $base-color-black;
     margin: 0 auto;
-    width: 800px;
+    width: $layout-width-small;
 
     &::after {
 		clear: both;
@@ -12,6 +13,24 @@
 		display: block;
 		height: 0;
 		visibility: hidden;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.footer-nav {
+		width: $layout-width-medium;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.footer-nav {
+		width: $layout-width-large;
+	}
+}
+
+@media only screen and (min-width: 1456px) {
+	.footer-nav {
+		width: $layout-width-large;
 	}
 }
 

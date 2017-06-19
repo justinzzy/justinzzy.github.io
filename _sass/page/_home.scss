@@ -1,10 +1,41 @@
 .content-home {
-	text-align: center;
+	text-align: center
 }
 
 .content-home__avator {
-	height: 180px;
-	margin: 30px auto;
-    text-align: center;
-	width: 180px;
+	height: 160px;
+	width: 160px;
+}
+
+.content-home__content {
+	font-size: 30px;
+	margin-top: 70px;
+}
+
+.content-home__content-1 {
+	color: $rainbow-color-red;
+}
+
+.content-home__content-2 {
+	color: $rainbow-color-orange;
+}
+
+.content-home__content-3 {
+	color: $rainbow-color-yellow;
+}
+
+.content-home__content-4 {
+	color: $rainbow-color-green;
+}
+
+.content-home__content-5 {
+	color: $rainbow-color-blueness;
+}
+
+.content-home__content-6 {
+	color: $rainbow-color-blue;
+}
+
+.content-home__content-7 {
+	color: $rainbow-color-purple;
 }
