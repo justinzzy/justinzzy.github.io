@@ -10,24 +10,27 @@ body {
 .content {
 	font-size: $font-size-medium;
     margin: 50px auto;
-    min-height: 560px;
+    min-height: 460px;
     width: $layout-width-small;
 }
 
 @media only screen and (min-width: 768px) {
 	.content {
+		min-height: 560px;
 		width: $layout-width-medium;
 	}
 }
 
 @media only screen and (min-width: 1024px) {
 	.content {
+		min-height: 560px;
 		width: $layout-width-large;
 	}
 }
 
 @media only screen and (min-width: 1456px) {
 	.content {
+		min-height: 560px;
 		width: $layout-width-large;
 	}
 }
