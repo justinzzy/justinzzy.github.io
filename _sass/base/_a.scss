@@ -1,17 +1,21 @@
 a {
+	color: inherit;
 	text-decoration: none;
+
+	&:visited {
+		color: inherit;
+	}
+
+	&:hover {
+		color: $base-color-light-blue;
+	}
 }
 
 .nav-link {
-	color: $base-color-gray;
 	display: inline-block;
 	font-family: $font-family-tahoma;
 	height: 40px;
 	line-height: 40px;
 	text-align: center;
 	width: 100px;
-
-	&:hover {
-		color: $base-color-dark;
-	}
 }

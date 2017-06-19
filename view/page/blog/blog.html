@@ -3,16 +3,16 @@ layout: default
 title: "Justin's Blog"
 describe: "Hi buddy, welcome to my blog page, here are some articles and demos, hope you like them."
 ---
-<div class="blog-content">
+<div class="content-blog">
 	{% include content-title.html %}
-	<div class="blog-content_posts">
-		<div class="container">
-			<p>Blog List</p>
-			<ul>
-				{% for post in site.posts %}
-					<li><span>{{ post.date | date_to_string }}</span> >> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-				{% endfor %}
-			</ul>
-		</div>
+	<div class="content-blog__posts">
+		<p class="content-blog__posts-title">Blog List</p>
+		<ul class="content-blog__posts-content">
+			{% for post in site.posts %}
+				<li>
+					<span>{{ post.date | date_to_string }}</span> >> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+				</li>
+			{% endfor %}
+		</ul>
 	</div>
 </div>
