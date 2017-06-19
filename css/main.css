@@ -106,19 +106,22 @@ body {
 .content {
   font-size: 18px;
   margin: 50px auto;
-  min-height: 560px;
+  min-height: 460px;
   width: 360px; }
 
 @media only screen and (min-width: 768px) {
   .content {
+    min-height: 560px;
     width: 600px; } }
 
 @media only screen and (min-width: 1024px) {
   .content {
+    min-height: 560px;
     width: 800px; } }
 
 @media only screen and (min-width: 1456px) {
   .content {
+    min-height: 560px;
     width: 800px; } }
 
 .content-post {
