@@ -1,7 +1,16 @@
 .content-post {
     font-family: Georgia, "Times New Roman", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", serif;
+    line-height: 1.7em;
 }
 
 .content-post ul {
     margin-left: 40px;
+}
+
+.content-post a {
+    color: $main-color-blue;
+
+    &:hover {
+        color: $main-color-orange;
+    }
 }
