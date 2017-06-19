@@ -125,10 +125,16 @@ body {
     width: 800px; } }
 
 .content-post {
-  font-family: Georgia, "Times New Roman", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", serif; }
+  font-family: Georgia, "Times New Roman", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", serif;
+  line-height: 1.7em; }
 
 .content-post ul {
   margin-left: 40px; }
+
+.content-post a {
+  color: #006aff; }
+  .content-post a:hover {
+    color: #ffa500; }
 
 .content-home {
   text-align: center; }
@@ -173,3 +179,21 @@ body {
 
 .grid-item-img {
   max-width: 100%; }
+
+.content-post table img {
+  width: 150px; }
+
+img[alt=gif1], img[alt=apng1] {
+  background-color: #000000; }
+
+img[alt=gif2], img[alt=apng2] {
+  background-color: #ffffff; }
+
+img[alt=gif3], img[alt=apng3] {
+  background-color: #209afc; }
+
+img[alt=gif4], img[alt=apng4] {
+  background-color: #ffa500; }
+
+img[alt=gif5], img[alt=apng5] {
+  background-color: #ff0000; }
