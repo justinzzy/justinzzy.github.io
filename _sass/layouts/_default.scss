@@ -1,7 +1,7 @@
 body {
 	background-color: $base-color-white;
 	color: $base-color-black;
-    font-family: $font-family-comic-sans-ms;
+    font-family: Georgia, $font-family-default;
 	font-size: $font-size-small;
 	line-height: 1.42857143;
 	margin: 0;
@@ -9,7 +9,25 @@ body {
 
 .content {
 	font-size: $font-size-medium;
-    margin: 0 auto;
-    min-height: 600px;
-    width: 800px;
+    margin: 50px auto;
+    min-height: 560px;
+    width: $layout-width-small;
+}
+
+@media only screen and (min-width: 768px) {
+	.content {
+		width: $layout-width-medium;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.content {
+		width: $layout-width-large;
+	}
+}
+
+@media only screen and (min-width: 1456px) {
+	.content {
+		width: $layout-width-large;
+	}
 }
