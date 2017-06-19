@@ -106,7 +106,7 @@ body {
 .content {
   font-size: 18px;
   margin: 50px auto;
-  min-height: 460px;
+  min-height: 360px;
   width: 360px; }
 
 @media only screen and (min-width: 768px) {
