@@ -175,7 +175,8 @@ body {
 .grid-item {
   width: 200px;
   position: absolute;
-  text-align: center; }
+  text-align: center;
+  transition: all .4s; }
 
 .grid-item-img {
   max-width: 100%; }
