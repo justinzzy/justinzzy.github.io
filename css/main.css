@@ -181,6 +181,9 @@ body {
 .grid-item-img {
   max-width: 100%; }
 
+p img {
+  width: 700px; }
+
 .content-post table img {
   width: 150px; }
 
