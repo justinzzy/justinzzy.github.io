@@ -16,3 +16,7 @@ body {
 .greeting {
   padding: 100px 20%;
 }
+
+.target {
+  display: none;
+}
