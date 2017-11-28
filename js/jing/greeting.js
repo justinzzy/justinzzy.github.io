@@ -4,14 +4,14 @@ var GREETING_TEXT = {
   AFTERNOON: '下午好',
   EVENING:   '晚上好'
 }
-var greetingText = $('#greetingText')
-var greetingTarget = $('#greetingTarget')
-var intervalTime = $('#intervalTime');
+var greetingText = document.getElementById('greetingText')
+var greetingTarget = document.getElementById('greetingTarget')
+var intervalTime = document.getElementById('intervalTime');
 
 
 // main
 (function () {
-  greetingText.text('你在看我吗 (￣▽￣)~*')
+  greetingText.textContent = '你在看我吗 (￣▽￣)~*'
 
   for (var i=0; i<6; i++) {
     setTimeout(iInterval(i), 1000*i)
@@ -23,12 +23,12 @@ function iInterval(i) {
   var k = i
 
   return function () {
-    intervalTime.text((5-k) + '...')
+    intervalTime.textContent = (5-k) + '...'
 
     if (k === 5) {
-      intervalTime.text('')
-      greetingText.text(getGreetingText())
-      greetingTarget.show()
+      intervalTime.textContent = ''
+      greetingText.textContent = getGreetingText()
+      greetingTarget.classList.remove('hidden')
     }
   }
 }

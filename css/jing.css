@@ -17,6 +17,6 @@ body {
   padding: 100px 20%;
 }
 
-.target {
+.hidden {
   display: none;
 }
