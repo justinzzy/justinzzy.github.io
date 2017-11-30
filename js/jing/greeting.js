@@ -9,14 +9,17 @@ var greetingTarget = document.getElementById('greetingTarget')
 var intervalTime = document.getElementById('intervalTime');
 
 
-// main
-(function () {
-  greetingText.textContent = '你在看我吗 (￣▽￣)~*'
+// // main
+// (function () {
+//   greetingText.textContent = '你在看我吗 (￣▽￣)~*'
+//
+//   for (var i=0; i<6; i++) {
+//     setTimeout(iInterval(i), 1000*i)
+//   }
+// })()
 
-  for (var i=0; i<6; i++) {
-    setTimeout(iInterval(i), 1000*i)
-  }
-})()
+greetingText.textContent = getGreetingText()
+greetingTarget.classList.remove('hidden')
 
 
 function iInterval(i) {
