@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #FFF8DC;
+}
+
+.header, .footer {
+}
+
+.content {
+  font-size: 120%;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  height: 84vh;
+}
+
+.greeting {
+  padding: 100px 20%;
+}
+
+.hidden {
+  display: none;
+}
